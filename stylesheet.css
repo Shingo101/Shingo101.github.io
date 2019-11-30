@@ -2,11 +2,14 @@
 body  {
 margin: 0;
 font-family:"hiragino kaku Gothic ProN";
-width: 100%;
+
 }
 
 a {
  text-decoration: none;
+}
+.clear{
+clear: left;
 }
 
 .container {
@@ -98,7 +101,6 @@ float: left;
 }
 
 .info-wrapper {
-  height:700px;
   padding-bottom: 130px;
   background-color:#f7f7f7;
 }
