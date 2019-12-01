@@ -1,39 +1,38 @@
 @media all and (max-width:1030px) {
-  .container{
-   padding:0px ;
+ 
+  .container {
     width: 100%;
+    padding: 0px;
   }
-  
-  .top-wrapper p {
-    font-size: 10px;
-  }
-  
+ 
  
 }
 @media all and (max-width:600px) {
-  header {
-    display: none;
-  }
 
-  .container {
-     
-     width: 100%;
-  }
-  .top-wrapper{
-    width: 100%;
-  }
+ .top-wrapper {
+   text-align: left;
+ }
+.top-wrapper h1 {
+  margin:10px 0 ;
+  font-size: 30px;
+}
+.top-wrapper p {
+  font-size: 13px;
+}
+
   footer {
     text-align:center;
   }
    .btn {
         
-    width:100% ;
+    width:90% ;
+    margin-right: 0px;
   }
   .facebook {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 .twitter {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
   
 }
