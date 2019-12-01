@@ -17,7 +17,7 @@ clear: left;
 .container {
   max-width: 1170px;
     width:100%;
-  padding:0px 15px;
+ 
   margin: 0 auto;
 }
 
@@ -52,14 +52,14 @@ text-shadow:2px 2px 0 #000;
 
 .twitter {
   background-color:#34A1F2 ;
-  width: 93.5156px;
+  width: 141px;
   text-align: center;
   margin-right: 10px;
 }
 
 .instagram {
   background-color: rgb(175, 37, 175);
-  width:100px ;
+ width: 141px;
   text-align: center;
   
 }
@@ -121,7 +121,9 @@ float: left;
 .info-wrapper {
   text-align: center;
 }
-
+.txt-contents p {
+  letter-spacing: 5px;
+}
 .btn {
   color: white;
   display: inline-block;
@@ -161,4 +163,3 @@ footer p {
   width: 300px;
   height: 300px;
 }
-
